@@ -4,4 +4,4 @@
 
 This is my weekly report.
 
-[link text](https://github.com/yrfyang/yrf-reseach-project/blob/master/week1.md)
+[Week1 report](https://github.com/yrfyang/yrf-reseach-project/blob/master/week1.md)
