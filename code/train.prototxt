@@ -1,4 +1,4 @@
-name: "UnsupNet" 
+name: "testNet" 
 layer {
   name: "data"
   type: "ImageData"
