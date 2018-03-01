@@ -4,7 +4,7 @@
 
 Following caffe installation to install cuda 7.0:
 
-install openGL Library. After 'rebot', I ccould not log in to Ubuntu. After searching some information, I knew it is a very common error. Alongside with Nvidia drivers it also installs lib-mesa which overrides the openGL files installed by previous Nvidia driver installation, which causes Ubuntu GUI to crash.
+install openGL Library. After 'rebot', I could not log in to Ubuntu. After searching some information, I knew it is a very common error. Alongside with Nvidia drivers it also installs lib-mesa which overrides the openGL files installed by previous Nvidia driver installation, which causes Ubuntu GUI to crash.
 
 There are two methods to try. As for the first one, someone suggests to install cuda directly. It will report some errors because there is no GPU in this virtual mechine. While others suggest to install the old version of openGL Library. It seems to work well at the beginning but fail to install caffe.
 
