@@ -8,15 +8,15 @@ This is my weekly report.
 
 
 
-##PROJECT TITLE:
+## PROJECT TITLE:
 USER INTERFACE DESIGN CRITICS
 
-##LEARNING OBJECTIVES:
-###To master python programming skills of editing images
-###To enhance machine learning techniques to deal with images
-###To gain efficient approaches of evaluating UI design
+## LEARNING OBJECTIVES:
+### To master python programming skills of editing images
+### To enhance machine learning techniques to deal with images
+### To gain efficient approaches of evaluating UI design
 
-##PROJECT DESCRIPTION:
+## PROJECT DESCRIPTION:
 
 When novice Android developers want to create UI, they may stumble across functions in Android packages. A UI design image depicts the desired UI elements and their spatial layout in a matrix of pixels. To implement a UI design image using a GUI framework, developers must be able to translate the pixel-based depiction of the UI (or parts of the UI) into a GUI skeleton. They may want professional advice to perfect their design.
 
