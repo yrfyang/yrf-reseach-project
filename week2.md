@@ -22,7 +22,7 @@ solution: follow the instructions below
 ![soulution1](https://github.com/yrfyang/yrf-reseach-project/blob/master/screenshot/7.png)
 
 problem6:
-![error6](https://github.com/yrfyang/yrf-reseach-project/blob/master/screenshot/6.png)
+![error6](https://github.com/yrfyang/yrf-reseach-project/blob/master/screenshot/10.png)
 solution: cannot solve, no gpu!
 
 # Learn caffe
