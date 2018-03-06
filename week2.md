@@ -26,3 +26,13 @@ problem6:
 solution: cannot solve, no gpu!
 
 # Learn caffe
+Currently, there are only two bugs:
+![error7](https://github.com/yrfyang/yrf-reseach-project/blob/master/screenshot/17.png)
+
+I also follow some tutorials online to learn caffe. Links are showing below:
+
+[caffe blob](http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html)
+
+[caffe introduction](https://www.zhihu.com/question/27982282)
+
+[Training LeNet on MNIST with Caffe](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)
