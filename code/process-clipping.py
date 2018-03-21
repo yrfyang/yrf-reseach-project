@@ -135,12 +135,12 @@ def createClippings(widgets_folder, meta_dump, further_remove):
 			if not os.path.exists(widget_dir):
 				os.makedirs(widget_dir)
 			clip.save(filepath)
-			imA = Image.open(os.path.join(widget_dir, filename + ".png"))
-			hA = imA.histogram()
-			widget['hot'] = hA
+			# imA = Image.open(os.path.join(widget_dir, filename + ".png"))
+			# hA = imA.histogram()
+			# widget['hot'] = hA
 
 			im = cv2.imread(filepath)
-			print(im)
+			#print(im)
 			gr = im
 			if im is not None:
 				gr = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
@@ -149,8 +149,15 @@ def createClippings(widgets_folder, meta_dump, further_remove):
 			image = gr
 			fd, hog_image = hog(image, orientations=8, pixels_per_cell=(16, 16),
 			 	                    cells_per_block=(1, 1), visualise=True, block_norm='L2-Hys')
-			widget['hog_fd'] = fd.tolist()
-			widget['hog_image'] = hog_image.tolist()
+			try:
+				fd = fd / np.amax(fd)
+				hog_image = hog_image / np.amax(fd)
+			except:
+				pass
+			widget['hog_fd_average'] = np.average(fd)
+			widget['hog_image_average'] = np.average(hog_image)
+			widget['hog_fd_var'] = fd.var()
+			widget['hog_image_var'] = hog_image.var()
 			# try:
 			# 	fd, hog_image = hog(image, orientations=1, pixels_per_cell=(1, 1),
 			# 	                    cells_per_block=(1, 1), visualise=True, block_norm='L2-Hys')
