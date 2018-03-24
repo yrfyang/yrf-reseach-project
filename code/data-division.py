@@ -38,7 +38,6 @@ with open(file1) as f:
             hog_fd_var = hog_fd_average / len(value)
             hog_image_average = hog_fd_average / len(value)
             hog_image_var = hog_fd_average / len(value)
-            print(hog_fd_average)
             data = ""
             try:
                 with open(archive_dir +  'data.txt', 'r') as f1:
