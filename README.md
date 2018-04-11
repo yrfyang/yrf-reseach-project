@@ -16,6 +16,8 @@ This is my weekly report.
 
 [Week6 report](https://github.com/yrfyang/yrf-reseach-project/blob/master/week6.md)
 
+[Week7 report](https://github.com/yrfyang/yrf-reseach-project/blob/master/week7.md)
+
 
 
 ## PROJECT TITLE:
